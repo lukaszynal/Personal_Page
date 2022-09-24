@@ -1,0 +1,73 @@
+[
+  {
+    "Id": 4,
+    "Title": "Portfolio",
+    "Description": [
+      "This site was created to present my portfolio.",
+      "Even though it could be a static page, I decided to use the MVC pattern. It uses JSON files as a database."
+    ],
+    "TechStack": [
+      "Web Application",
+      "C#",
+      ".Net Core 6.0",
+      "ASP.Net Core MVC"
+    ],
+    "Github": "https://github.com/lukaszynal/lukaszynal",
+    "Img": "../img/portfolio.png",
+    "Date": "20.09.2022"
+  },
+
+
+  {
+    "Id": 3,
+    "Title": "TodoList Application",
+    "Description": [
+      "Say goodbye to handwritten to-do lists with missing details, and say hello to having all the information you need to get your tasks done.",
+      "The creation of this application was a mandatory completion point for the .Net Development training from EPAM. It uses ASP.Net MVC technology and maintains the database thanks to the Entity Framework. It has a console and web version that use the same class library."
+    ],
+    "TechStack": [
+      "Web and Console Application",
+      "C#",
+      ".Net Core 3.1",
+      "ASP.Net Core MVC",
+      "Entity Framework"
+    ],
+    "Github": "https://github.com/lukaszynal/TodoListApp",
+    "Img": "../img/todoList.png",
+    "Date": "01.08.2022"
+  },
+
+
+  {
+    "Id": 2,
+    "Title": "Memory Game",
+    "Description": [
+      "Check how good is your memory."
+    ],
+    "TechStack": [
+      "Console Application",
+      "C#",
+      ".Net Framework 4.7.2"
+    ],
+    "Github": "https://github.com/lukaszynal/Memory_Game",
+    "Img": "../img/memoryGame.png",
+    "Date": "13.02.2022"
+  },
+
+
+  {
+    "Id": 1,
+    "Title": "Analyze Specified Directory",
+    "Description": [
+      "Analyze specified directory with multithreading benchmark.",
+      "That application analyze and shows statistics of specified directory, handles recursive directories. It prints number of files and total number of lines (as well count non-empty and empty lines). It also count words and letters and have performance benchmarks to measure the impact of using the different number of threads."
+    ],
+    "TechStack": [
+      "Console Application",
+      "Standard ISO C++20 (/std:c++20)"
+    ],
+    "Github": "https://github.com/lukaszynal/Analyze_Specified_Directory",
+    "Img": "../img/analyze_specified_directory.png",
+    "Date": "13.02.2022"
+  }
+]

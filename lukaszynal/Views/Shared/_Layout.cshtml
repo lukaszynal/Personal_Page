@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - lukaszynal</title>   
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> 
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lukaszynal.styles.css" asp-append-version="true" />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html, body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Roboto", sans-serif
+        }
+    </style>
+</head>
+<body  class="light-grey">
+    <header>
+        <!-- Nav Bar -->
+        <div class="px-3 py-2 margin-bottom blue-gray text-white">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none" asp-area="" asp-controller="Home" asp-action="Index">
+                        <h2>&lt;lukaszynal&gt;</h2>
+                    </a>
+                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                        <li>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">
+                                <em class="bi d-block mx-auto mb-1 fa fa-home fa-fw xlarge text-white"></em>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Projects">
+                                <em class="bi d-block mx-auto mb-1 fa fa-code fa-fw xlarge text-white"></em>
+                                Projects
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Courses">
+                                <em class="bi d-block mx-auto mb-1 fa fa-graduation-cap fa-fw xlarge text-white"></em>
+                                Courses
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Resume">
+                                <em class="bi d-block mx-auto mb-1 fa fa-address-card-o fa-fw xlarge text-white"></em>
+                                Resume
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Nav Bar -->
+    </header>
+
+    <div class="container">
+        <main role="main" style="max-width:1400px;">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="blue-gray center margin-top">
+        <p>Find me on social media.</p>
+        <a href="https://www.facebook.com/lukaszynal/"><em class="fa fa-facebook-official hover-opacity text-white"></em> </a>
+        <a href="https://www.linkedin.com/in/lukaszynal/"><em class="fa fa-linkedin hover-opacity text-white"></em> </a>
+        <a href="https://github.com/lukaszynal/"><em class="fa fa-github hover-opacity text-white" aria-hidden="true"></em> </a>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

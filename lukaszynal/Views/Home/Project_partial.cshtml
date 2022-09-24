@@ -1,0 +1,33 @@
+﻿@model lukaszynal.Models.ProjectModel
+
+<div class="card margin-bottom">
+    <div class="card-header" style="text-align: center">
+        <h3 class="card-title">@Model.Title</h3>
+    </div>
+    <img class="card-img-top border-bottom" src="@Model.Img">
+    <div class="card-body">
+        <div class="card-columns row row-cols-1 row-cols-sm-2">
+            <div class="col margin-bottom">
+                <h5 class="card-title"><strong>Description</strong></h5>
+                @foreach (var desc in Model.Description)
+                {
+                    <p class="card-text">@desc</p>
+                }
+            </div>
+            <div class="col">
+                <h5 class="card-title"><strong>Tech Stack</strong></h5>
+                <p class="card-text">
+                    <ul>
+                    @foreach (var tech in Model.TechStack)
+                    {
+                    <li>@tech</li>
+                    }
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="card-footer">
+        <p class="card-text" style="text-align: center"><a href=@Model.Github><em class="fa fa-github hover-opacity xxlarge text-dark" aria-hidden="true"></em></a></p>
+    </div>
+</div>
