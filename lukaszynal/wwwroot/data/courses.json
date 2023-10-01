@@ -1,5 +1,29 @@
 [
   {
+    "Id": 13,
+    "Title": "Data Analytics Engineering Program Stage 2",
+    "Description": "EPAM Systems",
+    "Img": "../img/dae_stage2_Epam.PNG",
+    "Date": "25.09.2022",
+    "Category": "Other"
+  },
+  {
+    "Id": 12,
+    "Title": "Data Analytics Engineering Program Stage 1",
+    "Description": "EPAM Systems",
+    "Img": "../img/dae_stage1_Epam.PNG",
+    "Date": "01.06.2023",
+    "Category": "Other"
+  },
+  {
+    "Id": 11,
+    "Title": "NOKIATHON 2023 edition",
+    "Description": "EPAM Systems",
+    "Img": "../img/nokiathon_nokia.PNG",
+    "Date": "02.04.2023",
+    "Category": "Other"
+  },
+  {
     "Id": 10,
     "Title": "Responsive Web Design",
     "Description": "sololearn",
