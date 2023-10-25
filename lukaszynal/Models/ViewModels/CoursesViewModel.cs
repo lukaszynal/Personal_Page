@@ -10,10 +10,8 @@ namespace lukaszynal.Models.ViewModels
         }
 
         public JsonFileService RepositoryService { get; }
-        public IEnumerable<CourseModel> CppCourses => RepositoryService.GetCourses().Where(x => x.Category == "Cpp");
-        public IEnumerable<CourseModel> PythonCourses => RepositoryService.GetCourses().Where(x => x.Category == "Python");
-        public IEnumerable<CourseModel> DotNetCourses => RepositoryService.GetCourses().Where(x => x.Category == ".Net").OrderByDescending(x => x.Id);
-        public IEnumerable<CourseModel> WebCourses => RepositoryService.GetCourses().Where(x => x.Category == "Web");
-        public IEnumerable<CourseModel> OtherCourses => RepositoryService.GetCourses().Where(x => x.Category == "Other");
+        public IEnumerable<CourseModel> ProgrammingCourses => RepositoryService.GetCourses().Where(x => x.Category == "Programming").OrderByDescending(x => x.Id);
+        public IEnumerable<CourseModel> DataCourses => RepositoryService.GetCourses().Where(x => x.Category == "Data").OrderByDescending(x => x.Id);
+        public IEnumerable<CourseModel> OtherCourses => RepositoryService.GetCourses().Where(x => x.Category == "Other").OrderByDescending(x => x.Id);
     }
 }

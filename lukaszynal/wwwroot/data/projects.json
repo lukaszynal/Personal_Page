@@ -3,8 +3,7 @@
     "Id": 4,
     "Title": "Portfolio",
     "Description": [
-      "This site was created to present my portfolio.",
-      "Even though it could be a static page, I decided to use the MVC pattern. It uses JSON files as a database."
+      "This site was created to present my portfolio. I chose to use the MVC pattern because it allows me to separate the concerns of the presentation, logic, and data layers of my website. I also used JSON files as a database because they are easy to create, read, and update, and they can store complex data structures."
     ],
     "TechStack": [
       "Web Application",
@@ -22,8 +21,8 @@
     "Id": 3,
     "Title": "TodoList Application",
     "Description": [
-      "Say goodbye to handwritten to-do lists with missing details, and say hello to having all the information you need to get your tasks done.",
-      "The creation of this application was a mandatory completion point for the .Net Development training from EPAM. It uses ASP.Net MVC technology and maintains the database thanks to the Entity Framework. It has a console and web version that use the same class library."
+      "Say goodbye to handwritten to-do lists, with missing details, and say hello to getting all the information you need to get your tasks done.",
+      "I created a todo list application that uses ASP.NET Core MVC and Razor pages, as main technologies. I designed the application to be user-friendly and intuitive. I used Entity Framework Core, as the data access layer and connected it to a local database that stores the tasks. It has a console and web version, that uses the same class library."
     ],
     "TechStack": [
       "Web and Console Application",
@@ -40,18 +39,22 @@
 
   {
     "Id": 2,
-    "Title": "Memory Game",
+    "Title": "Iowa Liquor Sales DWH",
     "Description": [
-      "Check how good is your memory."
+      "Liquor sales are an important part of the economy in Iowa. There are many stores and businesses that offer a wide variety of liquors to suit the tastes and preferences of consumers. This industry is highly competitive, and to be successful, it is important to have a deep understanding of the factors that influence consumer choice. One way to gain this understanding is by collecting and analyzing data on liquor sales.",
+      "I created a data warehouse that follows a hybrid model of 3NF and Star schemas, using the Inmon and Kimball methodologies. I designed four layers of data flow: the SA layer, where I loaded the csv files from two different source systems; the BL_3NF layer, where I transformed the data into normalized tables; the BL_DM layer, where I converted the data into denormalized tables; and the BL_CL layer, where I performed cleansing and ETL operations. I used surrogate keys to link the tables across different layers and to keep track of the natural keys from the source systems. I also implemented a batch incremental load strategy to update the data warehouse periodically and efficiently.",
+      "After creating the data warehouse, I used Power BI to create visualizations that show the insights and trends from the liquor sales data. I connected Power BI to the data warehouse and imported the tables from the BL_DM layer. I created various charts and graphs to display the data. I also used filters and slicers to allow interactive exploration of the data. I arranged the visualizations on a dashboard and added titles and captions to explain the findings."
     ],
     "TechStack": [
-      "Console Application",
-      "C#",
-      ".Net Framework 4.7.2"
+      "SQL",
+      "ETL/DWH",
+      "PostgreSQL",
+      "PL/pgSQL",
+      "Microsoft PowerBI"
     ],
-    "Github": "https://github.com/lukaszynal/Memory_Game",
-    "Img": "../img/memoryGame.png",
-    "Date": "13.02.2022"
+    "Github": "https://github.com/lukaszynal/Iowa_Liquor_Sales_DWH",
+    "Img": "../img/iowa_liquor_sales_dwh.png",
+    "Date": "01.08.2023"
   },
 
 
@@ -60,7 +63,7 @@
     "Title": "Analyze Specified Directory",
     "Description": [
       "Analyze specified directory with multithreading benchmark.",
-      "That application analyze and shows statistics of specified directory, handles recursive directories. It prints number of files and total number of lines (as well count non-empty and empty lines). It also count words and letters and have performance benchmarks to measure the impact of using the different number of threads."
+      "That application analyzes and shows statistics of specified directory, handles recursive directories. It prints the number of files and the total number of lines, as well as counts non-empty and empty lines. It also counts words and letters, and has performance benchmarks to measure the impact of using the different number of threads."
     ],
     "TechStack": [
       "Console Application",

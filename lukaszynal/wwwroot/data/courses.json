@@ -5,7 +5,7 @@
     "Description": "EPAM Systems",
     "Img": "../img/dae_stage2_Epam.PNG",
     "Date": "25.09.2022",
-    "Category": "Other"
+    "Category": "Data"
   },
   {
     "Id": 12,
@@ -13,23 +13,15 @@
     "Description": "EPAM Systems",
     "Img": "../img/dae_stage1_Epam.PNG",
     "Date": "01.06.2023",
-    "Category": "Other"
+    "Category": "Data"
   },
   {
     "Id": 11,
     "Title": "NOKIATHON 2023 edition",
-    "Description": "EPAM Systems",
+    "Description": "Nokia",
     "Img": "../img/nokiathon_nokia.PNG",
     "Date": "02.04.2023",
     "Category": "Other"
-  },
-  {
-    "Id": 10,
-    "Title": "Responsive Web Design",
-    "Description": "sololearn",
-    "Img": "../img/responsiveWeb_sololearn.png",
-    "Date": "14.08.2022",
-    "Category": "Web"
   },
   {
     "Id": 9,
@@ -37,55 +29,7 @@
     "Description": "EPAM Systems",
     "Img": "../img/dotNetDevelopment_Epam.png",
     "Date": "12.08.2022",
-    "Category": ".Net"
-  },
-  {
-    "Id": 8,
-    "Title": "Web Development Fundamentals",
-    "Description": "sololearn",
-    "Img": "../img/webDev_sololearn.png",
-    "Date": "07.08.2022",
-    "Category": "Web"
-  },
-  {
-    "Id": 7,
-    "Title": "ASP.Net Core MVC",
-    "Description": "LinkedIn Learning",
-    "Img": "../img/aspCoreMvc_linkedin.png",
-    "Date": "28.06.2022",
-    "Category": ".Net"
-  },
-  {
-    "Id": 6,
-    "Title": "CSS",
-    "Description": "sololearn",
-    "Img": "../img/css_sololearn.png",
-    "Date": "02.03.2022",
-    "Category": "Web"
-  },
-  {
-    "Id": 5,
-    "Title": "HTML",
-    "Description": "sololearn",
-    "Img": "../img/html_sololearn.png",
-    "Date": "17.02.2022",
-    "Category": "Web"
-  },
-  {
-    "Id": 4,
-    "Title": "C#",
-    "Description": "sololearn",
-    "Img": "../img/cSharp_sololearn.png",
-    "Date": "13.02.2022",
-    "Category": ".Net"
-  },
-  {
-    "Id": 3,
-    "Title": "SQL",
-    "Description": "sololearn",
-    "Img": "../img/sql_sololearn.png",
-    "Date": "14.02.2022",
-    "Category": "Other"
+    "Category": "Programming"
   },
   {
     "Id": 2,
@@ -93,7 +37,7 @@
     "Description": "Cisco Networking Academy",
     "Img": "../img/python_Cisco.png",
     "Date": "15.08.2021",
-    "Category": "Python"
+    "Category": "Programming"
   },
   {
     "Id": 1,
@@ -101,6 +45,6 @@
     "Description": "Cisco Networking Academy",
     "Img": "../img/cpp_Cisco.png",
     "Date": "14.06.2021",
-    "Category": "Cpp"
+    "Category": "Programming"
   }
 ]
